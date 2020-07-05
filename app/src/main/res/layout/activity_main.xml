@@ -28,5 +28,17 @@
         android:layout_height="wrap_content"
         android:text="전화 걸기 (CALL)" />
 
+    <EditText
+        android:id="@+id/smsContentEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="문자로 보낼 내용 작성" />
+
+    <Button
+        android:id="@+id/sendSmsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문자 보내기 (SENDTO)" />
+
 
 </LinearLayout>
