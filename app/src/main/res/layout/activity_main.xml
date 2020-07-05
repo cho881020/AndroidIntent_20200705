@@ -40,5 +40,17 @@
         android:layout_height="wrap_content"
         android:text="문자 보내기 (SENDTO)" />
 
+    <Button
+        android:id="@+id/naverLinkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="네이버 링크 걸기" />
+
+    <Button
+        android:id="@+id/kakaoStoreLinkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카카오톡 플레이스토어 링크 걸기" />
 
 </LinearLayout>
